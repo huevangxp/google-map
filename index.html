@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Map</title>
 </head>
-<body>
+<body  onload = "loadMap()">
     
 
 
-    <script src="https://maps.googleapis.com/maps/api/js">
-        
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function loadMap() {
+   var mapOptions = {
+      center:new google.maps.LatLng(17.240498, 82.287598), 
+      zoom:9, 
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+   };
+}
     </script>
+        
+ 
 
 </body>
 </html>
